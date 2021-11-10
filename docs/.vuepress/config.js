@@ -22,7 +22,8 @@ module.exports = {
         'react'
       ],
       '/interview/': [
-        '', '面试题'
+        '',
+        '字节面试题'
       ]
     }
   },

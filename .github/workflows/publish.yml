@@ -41,7 +41,7 @@ jobs:
           # 源目录
           SOURCE: "docs/.vuepress/dist"
           # 服务器ip：换成你的服务器IP
-          REMOTE_HOST: "120.78.196.1"
+          REMOTE_HOST: ""
           # 用户
           REMOTE_USER: "root"
           # 目标地址
