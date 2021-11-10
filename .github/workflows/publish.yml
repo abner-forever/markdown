@@ -1,4 +1,4 @@
-name: 打包应用并上传阿里云
+name: 打包应用并上传服务器
 
 on:
   push:
@@ -41,7 +41,7 @@ jobs:
           # 源目录
           SOURCE: "docs/.vuepress/dist"
           # 服务器ip：换成你的服务器IP
-          REMOTE_HOST: "http://foreverheart.top"
+          REMOTE_HOST: "139.155.232.209"
           # 用户
           REMOTE_USER: "root"
           # 目标地址
