@@ -31,7 +31,7 @@ jobs:
         run: yarn docs:build
 
       # 上传阿里云
-      - name: 发布到阿里云
+      - name: 发布
         uses: easingthemes/ssh-deploy@v2.1.1
         env:
           # 私钥 这里是阿里云的私钥
@@ -41,7 +41,7 @@ jobs:
           # 源目录
           SOURCE: "docs/.vuepress/dist"
           # 服务器ip：换成你的服务器IP
-          REMOTE_HOST: "139.155.232.209"
+          REMOTE_HOST: "foreverheart.top"
           # 用户
           REMOTE_USER: "root"
           # 目标地址
