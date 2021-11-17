@@ -19,7 +19,12 @@ module.exports = {
       '/font/': [
         '',
         'http',
-        'react'
+        'react',
+        '手写方法',
+        'vite'
+      ],
+      '/error/': [
+        '',
       ],
       '/interview/': [
         '',
