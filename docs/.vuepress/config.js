@@ -28,7 +28,7 @@ module.exports = {
       ],
       '/interview/': [
         '',
-        '字节面试题'
+        '前端面试题'
       ]
     }
   },
