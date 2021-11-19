@@ -35,8 +35,7 @@ module.exports = {
   configureWebpack: {
     resolve: {
       alias: {
-        'image': '/assets/img',
-        '@alias': '/'
+        '@img': 'assets/img/' // 配置不生效 引用图片时直接根目录资源文件路径
       }
     }
   }

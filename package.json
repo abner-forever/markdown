@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abner-jlm/markdown.git"
+    "url": "git+https://github.com/abner-forever/markdown.git"
   },
   "author": "Abner",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abner-jlm/markdown/issues"
+    "url": "https://github.com/abner-forever/markdown/issues"
   },
-  "homepage": "https://github.com/abner-jlm/markdown#readme"
+  "homepage": "https://github.com/abner-forever/markdown#readme"
 }
