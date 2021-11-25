@@ -4,6 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }]
   ],
+  
   base: '/doc/',
   port: 9090,
   themeConfig: {
@@ -12,7 +13,6 @@ module.exports = {
       { text: '前端', link: '/font/' },
       { text: '面试', link: '/interview/' },
       { text: '关于我', link: 'http://foreverheart.top' },
-      { text: 'gitHub', link: 'https://github.com/abner-forever/markdown' },
     ],
     sidebarDepth: 2,
     sidebar: {
@@ -30,8 +30,12 @@ module.exports = {
         '',
         '前端面试题'
       ]
-    }
+    },
+    repo: 'https://github.com/abner-forever/markdown',
+    // editLinks: true,
+    editLinkText: '帮助我们改善此页面！'
   },
+  plugins: ['@vuepress/blog'],
   configureWebpack: {
     resolve: {
       alias: {

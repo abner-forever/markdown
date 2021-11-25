@@ -34,7 +34,7 @@ jobs:
       - name: 发布
         uses: easingthemes/ssh-deploy@v2.1.1
         env:
-          # 私钥 这里是阿里云的私钥
+          # 私钥 这里是阿里云的私钥 使用本地的私钥
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           # scp参数 
           ARGS: "-avzr --delete"
