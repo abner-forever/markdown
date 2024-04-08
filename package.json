@@ -1,0 +1,29 @@
+{
+  "scripts": {
+    "start": "vuepress dev docs ",
+    "docs:build": "vuepress build docs"
+  },
+  "name": "markdown",
+  "description": "## 1. css & html",
+  "version": "1.0.0",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abner-jlm/markdown.git"
+  },
+  "author": "Abner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abner-jlm/markdown/issues"
+  },
+  "homepage": "https://github.com/abner-jlm/markdown#readme"
+}
